@@ -19,7 +19,7 @@ This project fetches characters from the Marvel API and the number of comics the
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/analyse_marvel_characters.git
+git clone https://github.com/Dreira/analyse_marvel_characters.git
 cd marvel-api-characters
 ``` 
 
