@@ -1,6 +1,6 @@
 # Analyse Marvel Characters
 
-This project fetches characters from the Marvel API and the number of comics they appear in. 
+This project fetches characters from the Marvel API and the number of comics they appear in and store in a csv.
 
 ## Prerequisites
 
