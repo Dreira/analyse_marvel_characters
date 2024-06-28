@@ -1,6 +1,6 @@
 # Analyse Marvel Characters
 
-This project fetches characters from the Marvel API and the number of comics they appear in. It uses Python to interact with the Marvel API and outputs the results.
+This project fetches characters from the Marvel API and the number of comics they appear in. 
 
 ## Prerequisites
 
@@ -19,16 +19,9 @@ This project fetches characters from the Marvel API and the number of comics the
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/marvel-api-characters.git
+git clone https://github.com/yourusername/analyse_marvel_characters.git
 cd marvel-api-characters
 ``` 
-
-### Step 2: Create a Virtual Environment
-
-```bash 
-git clone https://github.com/yourusername/marvel-api-characters.git
-cd marvel-api-characters
-```
 
 ### Step 2: Create a Virtual Environment
 ```bash 
@@ -52,17 +45,12 @@ source venv/bin/activate
 ```bash 
 pip install -r requirements.txt
 ```
-### Step 5: Obtain Marvel API Keys
-1. Go to the Marvel Developer Portal.
-2. Sign up or log in to your account.
-3. Navigate to 'Get a key'.
-4. Create a new application to obtain your Public Key and Private Key.
 
-### Step 6: Configure Environment Variables
-Create a .env file in the project directory and add your Marvel API keys:
+### Step 7: Configure API key
+Create a .json file in the project directory and add your Marvel API keys:
 
-PUBLIC_KEY=your_public_key
-PRIVATE_KEY=your_private_key
+{PUBLIC_KEY=your_public_key
+PRIVATE_KEY=your_private_key}
 
 ### Step 7: Run the Script
 ```bash
