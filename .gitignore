@@ -1,0 +1,11 @@
+# Ignore secret files containing sensitive information
+secret.json
+
+# Ignore Python virtual environment files
+venv/
+
+# Ignore CSV files generated during execution
+*.csv
+
+# Ignore log files
+*.log
